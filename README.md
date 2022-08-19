@@ -1,0 +1,1 @@
+# Emotion-Onomatopoeia-Dictionary
