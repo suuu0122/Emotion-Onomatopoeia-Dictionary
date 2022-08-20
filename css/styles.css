@@ -1,0 +1,43 @@
+.bg-red {
+    background-color: red;
+}
+
+.bg-pink {
+    background-color: #FF00FF;
+}
+
+.bg-blue {
+    background-color: #00ECFF;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.emotion-card {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.picture{
+    width: 100%;
+    height: auto;
+    max-height: 15em;
+    padding: 1em;
+}
+
+p {
+    font-size: 0.95em;
+}
