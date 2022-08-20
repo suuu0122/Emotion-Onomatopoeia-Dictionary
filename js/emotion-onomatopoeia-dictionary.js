@@ -80,6 +80,16 @@ const pictureDictionary = {
     "zing":"img/fiber-optic-2749588_1280.webp"
 };
 
+const emotionPictureDictionary = {
+    "angry": "img/angry.png",
+    "happy": "img/happy.png",
+    "bad": "img/bad.png",
+    "sad": "img/sad.png",
+    "surprised": "img/surprised.png",
+    "fearful": "img/fearful.png",
+    "disgusted": "img/disgusted.png"
+}
+
 const emotions = [
     new EmotionObject("angry", "feeling or showing strong annoyance, displeasure, or hostility; full of anger.", "red", ["bark","grunt", "roar","whack","smack","hiss"]),
     new EmotionObject("happy", "feeling or showing pleasure or contentment.", "pink", ["bling","chatter","chant","giggle"]),
@@ -150,8 +160,9 @@ for (let i = 0; i < emotions.length; i++) {
     `
         <a href="#sec${currentEmotion.emotion}">
             <div class="col-md-4">
-                <div class="card text-center text-white m-3" style="width: 20rem; height: 15rem">
+                <div class="card d-flex justify-content-center align-items-center text-center text-white m-3" style="width: 20rem; height: 15rem">
                     <div class="card-body bg-${currentEmotion.color}">
+                        <img src=${emotionPictureDictionary[currentEmotion.emotion]} class="emotion-picture">
                         <h2 class="card-title">${currentEmotion.emotion}</h2>
                         <p class="card-text">${currentEmotion.description}</p>
                     </div>
