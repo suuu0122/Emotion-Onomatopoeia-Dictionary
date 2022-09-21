@@ -13,14 +13,6 @@ class EmotionObject{
         this.color = color;
         this.onomatopoeia = onomatopoeia;
     }
-
-    getOnomatopoeiaWords(){
-
-    }
-
-    getHtmlContainerString(){
-
-    }
 }
 
 //グローバル定数
